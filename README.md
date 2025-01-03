@@ -163,7 +163,7 @@
     <li>
         <strong>Test LangChain Installation</strong>
         <ul>
-            <li>Run this simple test:
+            <li>Run this simple test: </li>
 
 ```python
 from langchain.llms import HuggingFaceHub
@@ -171,8 +171,7 @@ llm = HuggingFaceHub(repo_id="gpt2", model_kwargs={"temperature": 0.7})
 response = llm("What is LangChain?")
 print(response)
 ```
-            </li>
-            <li>If everything is set up correctly, you’ll get a response from the AI.</li>
+<li>If everything is set up correctly, you’ll get a response from the AI.</li>
         </ul>
     </li>
     <li>

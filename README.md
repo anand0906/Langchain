@@ -166,9 +166,9 @@
             <li>Run this simple test: </li>
 
 ```python
-from langchain.llms import HuggingFaceHub
-llm = HuggingFaceHub(repo_id="gpt2", model_kwargs={"temperature": 0.7})
-response = llm("What is LangChain?")
+from langchain.llms import HuggingFaceEndpoint
+llm = HuggingFaceEndpoint(repo_id="gpt2",temperatur= 0.7)
+response = llm.invoke("What is LangChain?")
 print(response)
 ```
 <li>If everything is set up correctly, you’ll get a response from the AI.</li>
